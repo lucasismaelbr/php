@@ -1,0 +1,1 @@
+converte um total de segundos em semanas, dias, horas, minutos e segundos, explorando divisão inteira e resto de forma prática;

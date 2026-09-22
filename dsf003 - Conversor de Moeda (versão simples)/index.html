@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas v1.0</title>
+    <link rel="stylesheet" href="../global/css/php-moderno.css">
+</head>
+<body>
+    <header>
+        <h1>Conversor de Moedas v1.0</h1>
+    </header>
+    <main>
+        <form action="conversor.php" method="post">
+            <label for="valor_carteira">Quantos R$ você tem na carteira?</label>
+
+            <!-- type number | Permite que somente números sejam digitados no campo de entrada de dados -->
+            <!-- step any    | aceitar qualquer número decimal ou inteiro, com qualquer quantidade de casas decimais -->
+            <input type="number" step="any" name="valor_carteira" id="id_valor_carteira" placeholder="Digite o valor em R$" required/>
+            
+            <input type="submit" value="Converter">
+        </form>
+    </main>
+</body>
+</html>

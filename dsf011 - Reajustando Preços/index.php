@@ -1,0 +1,1 @@
+simula o reajuste de preço de um produto, aplicando um percentual de aumento e mostrando o novo valor, com ou sem barra deslizante (range);

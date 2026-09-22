@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antecessor e Sucessor Númerico</title>
+    <link rel="stylesheet" href="../global/css/php-moderno.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <!-- Título -->
+        <h1>
+            Informe um número
+        </h1>
+    </header>
+    <!-- Seção Formulário -->
+    <section>
+        <!-- Form destinado ao arquivo "resultado.php" envio GET -->
+        <form action="resultado.php" method="GET">
+
+            <!-- Rótulo antes do campo de entrada -->
+            <label for="valor_numero">Número: </label>
+
+            <!-- Campo de entrada, com instrução no background -->
+            <input type="number" name="valor_numero" id="idvalor_numero" placeholder="Digite um número" required/>
+
+            <!-- Botão de envio do Form -->
+            <input type="submit" value="Calcular">
+        </form>
+    </section>
+</body>
+</html>

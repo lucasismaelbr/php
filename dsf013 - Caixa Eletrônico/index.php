@@ -1,0 +1,1 @@
+simula um saque em um caixa eletrônico, mostrando quantas notas de cada valor serão entregues com base no valor informado, considerando as cédulas disponíveis

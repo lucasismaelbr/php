@@ -1,0 +1,1 @@
+com base no ano de nascimento informado, o sistema calcula a idade atual ou a idade em qualquer outro ano, utilizando a data do servidor;

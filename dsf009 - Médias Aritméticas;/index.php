@@ -1,0 +1,1 @@
+realiza o cálculo da média simples e da média ponderada de duas notas com pesos distintos, reforçando a lógica matemática envolvida;
